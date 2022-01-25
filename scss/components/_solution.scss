@@ -1,0 +1,22 @@
+.solution {
+  &-img {
+    img {
+      object-fit: contain;
+    }
+  }
+  &-buttons {
+    margin-top: 2.5rem;
+    .btn:first-child {
+      margin-right: 2rem;
+    }
+  }
+  &-description {
+    color: $gray-600;
+    margin-top: 1.5rem;
+  }
+  &-title {
+    padding-bottom: 1rem;
+    position: relative;
+    border-bottom: 1px solid $gray-300;
+  }
+}

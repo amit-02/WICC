@@ -1,0 +1,9 @@
+.navbar {
+  &-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25rem;
+    margin-bottom: 0;
+    list-style: none;
+  }
+}

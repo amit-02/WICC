@@ -1,0 +1,25 @@
+.experience {
+  &-name {
+    color: $blue;
+  }
+  &-card {
+    top: 10rem;
+    border-color: $gray-100;
+  }
+  &-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+    background-color: rgba($gray-300, 0.3);
+    flex-shrink: 0;
+    i {
+      i {
+        color: $secondary;
+      }
+    }
+  }
+}

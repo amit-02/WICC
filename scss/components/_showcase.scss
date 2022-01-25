@@ -1,0 +1,29 @@
+.showcase {
+  &-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  &-text {
+    position: absolute;
+    color: $white;
+    top: 23rem;
+    margin-left: 10rem;
+  }
+  &-slider img {
+    position: relative;
+    width: 400px;
+    height: auto;
+    margin-left: 30rem;
+    top: -10rem;
+  }
+  &-btn {
+    background-color: white;
+    fill: $white;
+    border-color: white;
+    display: inline;
+    &:hover {
+      color: $blue;
+    }
+  }
+}
